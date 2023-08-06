@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    tools{
-        maven 'maveninstall'
-    }
+    // tools{
+    //     maven 'maveninstall'
+    // }
     stages{
         stage('Build Maven'){
             steps{
